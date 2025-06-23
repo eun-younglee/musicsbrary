@@ -7,114 +7,150 @@ export default function Component() {
   const albums = [
     {
       id: 1,
-      title: "Midnight Dreams",
-      artist: "Luna Eclipse",
-      cover: "/images/album1.png",
-      genre: "Electronic",
+      title: "Wish You Were Here",
+      artist: "Pink Floyd",
+      cover: "https://i.scdn.co/image/ab67616d000082c11a84d71391df7469c5ab8539",
+      genre: "Progressive Rock",
     },
     {
       id: 2,
-      title: "Electric Waves",
-      artist: "Neon Pulse",
-      cover: "/images/album2.png",
-      genre: "Synthwave",
+      title: "A Momentary Lapse of Reason",
+      artist: "Pink Floyd",
+      cover: "https://i.scdn.co/image/ab67616d000082c161f734a2370207feda78d018",
+      genre: "Progressive Rock",
     },
     {
       id: 3,
-      title: "Golden Hour",
-      artist: "Sunset Valley",
-      cover: "/images/album3.png",
-      genre: "Indie Folk",
+      title: "The Dark Side of the Moon",
+      artist: "Pink Floyd",
+      cover: "https://i.scdn.co/image/ab67616d000082c1ea7caaff71dea1051d49b2fe",
+      genre: "Progressive Rock",
     },
     {
       id: 4,
-      title: "Urban Nights",
-      artist: "City Lights",
-      cover: "/images/album4.png",
-      genre: "Hip Hop",
+      title: "Zenyatta Mondatta",
+      artist: "The Police",
+      cover: "https://i.scdn.co/image/ab67616d000082c1fb1bc65edf4717e75fbc70ab",
+      genre: "New Wave",
     },
     {
       id: 5,
-      title: "Ocean Breeze",
-      artist: "Coastal Dreams",
-      cover: "/images/album5.png",
-      genre: "Ambient",
+      title: "Reggatta de Blanc",
+      artist: "The Police",
+      cover: "https://i.scdn.co/image/ab67616d000082c18ec81cc654b45ade8bdf1486",
+      genre: "New Wave / Punk",
     },
     {
       id: 6,
-      title: "Neon Nights",
-      artist: "Cyber Punk",
-      cover: "/images/album6.png",
-      genre: "Electronic",
+      title: "Nada Personal",
+      artist: "Soda Stereo",
+      cover: "https://i.scdn.co/image/ab67616d000082c1e28947f6ad2f100af9c1965a",
+      genre: "New Wave",
     },
     {
       id: 7,
-      title: "Forest Whispers",
-      artist: "Nature's Call",
-      cover: "/images/album7.png",
-      genre: "New Age",
+      title: "Arc of a Diver",
+      artist: "Steve Winwood",
+      cover: "https://i.scdn.co/image/ab67616d000082c188e5063a032f500fb12d98f4",
+      genre: "Blue-eyed Soul",
     },
     {
       id: 8,
-      title: "Jazz Fusion",
-      artist: "Smooth Operators",
-      cover: "/images/album8.png",
-      genre: "Jazz",
+      title: "Back in the Hihg Life",
+      artist: "Steve Winwood",
+      cover: "https://i.scdn.co/image/ab67616d000082c18362a7a26eaf279f336f1494",
+      genre: "Blue-eyed Soul",
     },
     {
       id: 9,
-      title: "Rock Anthem",
-      artist: "Thunder Strike",
-      cover: "/images/album9.png",
-      genre: "Rock",
+      title: "Duran Duran",
+      artist: "Duran Duran",
+      cover: "https://i.scdn.co/image/ab67616d0000b2730fc83f41d5f0bd27105e5048",
+      genre: "New Wave",
     },
     {
       id: 10,
-      title: "Ambient Space",
-      artist: "Cosmic Journey",
-      cover: "/images/album10.png",
-      genre: "Ambient",
+      title: "Rio",
+      artist: "Duran Duran",
+      cover: "https://i.scdn.co/image/ab67616d000082c10a754dd5389e1e5004fca140",
+      genre: "New Wave",
     },
     {
       id: 11,
-      title: "Hip Hop Beats",
-      artist: "Street Vibes",
-      cover: "/images/album11.png",
-      genre: "Hip Hop",
+      title: "Lark's Tongues in Aspic",
+      artist: "King Crimson",
+      cover: "https://i.scdn.co/image/ab67616d000082c1aa9e5286056e17ff3d9b2881",
+      genre: "Progressive Rock",
     },
     {
       id: 12,
-      title: "Classical Symphony",
-      artist: "Orchestra Divine",
-      cover: "/images/album12.png",
-      genre: "Classical",
+      title: "Red",
+      artist: "King Crimson",
+      cover: "https://i.scdn.co/image/ab67616d0000b2733167627d9428094376a26a08",
+      genre: "Progressive Rock",
+    }, 
+    {
+      id: 13,
+      title: "Going for the One",
+      artist: "Yes",
+      cover: "https://i.scdn.co/image/ab67616d0000b273370f0969aca636b22cc98eed",
+      genre: "Progressive Rock",
     },
+    {
+      id: 14,
+      title: "Close to the Edge",
+      artist: "Yes",
+      cover: "https://i.scdn.co/image/ab67616d0000b2730b4444fe9bc1a73ccbb949db",
+      genre: "Progressive Rock",
+    },
+    {
+      id: 15,
+      title: "Omnium Gatherum",
+      artist: "King Gizzard and the Lizard Wizard",
+      cover: "https://i.scdn.co/image/ab67616d0000b27380c6db47e75d58e25b72f2ca",
+      genre: "Progressive Rock",
+    },
+    {
+      id: 16,
+      title: "Hejira",
+      artist: "Joni Mitchell",
+      cover: "https://i.scdn.co/image/ab67616d000082c140a59e27df19f31576774900",
+      genre: "Jazz Fusion",
+    },
+    {
+      id: 17,
+      title: "Clouds",
+      artist: "Joni Mitchell",
+      cover: "https://i.scdn.co/image/ab67616d0000b273d43c786431c6708e91d9b180",
+      genre: "Folk Rock",
+    },
+    {
+      id: 18,
+      title: "Roundabout",
+      artist: "Yes",
+      cover: "https://i.scdn.co/image/ab67616d0000b273fb00f7be0eca020bb5c05911",
+      genre: "Progressive Rock",
+    }
   ]
 
   const [hoveredId, setHoveredId] = useState<number | null>(null)
   const [scrollOffset, setScrollOffset] = useState(0)
-
-  // Calculate how many albums can fit on screen
-  const getVisibleAlbumCount = () => {
-    if (typeof window !== "undefined") {
-      const screenWidth = window.innerWidth
-      const albumWidth = 280 // 264px + some spacing
-      return Math.floor(screenWidth / albumWidth) + 2 // Add 2 for smooth scrolling
-    }
-    return 7
-  }
-
-  const [visibleCount, setVisibleCount] = useState(7)
+  const [screenWidth, setScreenWidth] = useState(0)
 
   useEffect(() => {
-    const updateVisibleCount = () => {
-      setVisibleCount(getVisibleAlbumCount())
+    const updateScreenWidth = () => {
+      setScreenWidth(window.innerWidth)
     }
 
-    updateVisibleCount()
-    window.addEventListener("resize", updateVisibleCount)
-    return () => window.removeEventListener("resize", updateVisibleCount)
+    updateScreenWidth()
+    window.addEventListener("resize", updateScreenWidth)
+    return () => window.removeEventListener("resize", updateScreenWidth)
   }, [])
+
+  // Calculate how many albums can fit across the screen
+  const albumWidth = 300
+  const albumSpacing = 120
+  const albumsPerScreen = Math.floor(screenWidth / albumSpacing) || 7
 
   useEffect(() => {
     const handleWheel = (e: WheelEvent) => {
@@ -122,7 +158,7 @@ export default function Component() {
       const delta = e.deltaY > 0 ? 1 : -1
       setScrollOffset((prev) => {
         const newOffset = prev + delta
-        const maxOffset = Math.max(0, albums.length - Math.floor(visibleCount / 2))
+        const maxOffset = Math.max(0, albums.length - albumsPerScreen)
         return Math.max(0, Math.min(maxOffset, newOffset))
       })
     }
@@ -132,45 +168,47 @@ export default function Component() {
       container.addEventListener("wheel", handleWheel, { passive: false })
       return () => container.removeEventListener("wheel", handleWheel)
     }
-  }, [albums.length, visibleCount])
+  }, [albums.length, albumsPerScreen])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-black-900 to-slate-900">
       <Header />
 
       <div className="pt-20 flex items-center justify-center min-h-screen">
         <div className="relative w-full">
-          <h2 className="text-4xl font-bold text-white text-center mb-12">Featured Albums</h2>
+          <h2 className="text-4xl font-bold text-white text-left mb-6 ml-2 md:ml-12">Made for you</h2>
+          <p className="text-lg text-white text-left mb-8 ml-2 md:ml-12">Discover new music tailored just for you</p>
 
-          <div
-            id="album-container"
-            className="relative flex items-center justify-center overflow-hidden w-full"
-            style={{ height: "400px" }}
-          >
+          <div id="album-container" className="relative overflow-hidden w-full" style={{ height: "400px" }}>
             {albums.map((album, index) => {
-              const centerIndex = Math.floor(visibleCount / 2)
-              const position = index - scrollOffset - centerIndex
-              const isVisible = Math.abs(position) <= Math.ceil(visibleCount / 2)
+              const position = index - scrollOffset
+              const isVisible = position >= -1 && position <= albumsPerScreen
 
               if (!isVisible) return null
+
+              // Calculate position to spread across full width
+              const leftMargin = (screenWidth - albumsPerScreen * albumSpacing) / 2
+              const xPosition = leftMargin + position * albumSpacing
 
               return (
                 <div
                   key={album.id}
                   className="absolute cursor-pointer transition-all duration-500 ease-out group"
                   style={{
-                    transform: `translateX(${position * 200}px)`,
-                    zIndex: hoveredId === album.id ? 50 : albums.length - Math.abs(position),
-                    opacity: Math.abs(position) > Math.floor(visibleCount / 2) ? 0.3 : 1,
+                    left: `${xPosition}px`,
+                    top: "50%",
+                    transform: "translateY(-50%)",
+                    zIndex: hoveredId === album.id ? 50 : albums.length - index,
+                    opacity: position < 0 || position >= albumsPerScreen ? 0.3 : 1,
                   }}
                   onMouseEnter={() => setHoveredId(album.id)}
                   onMouseLeave={() => setHoveredId(null)}
                 >
                   <div
                     className={`
-                      relative w-64 h-64 rounded-lg overflow-hidden shadow-2xl
+                      relative w-[300px] h-[300px] rounded-lg overflow-hidden shadow-2xl
                       transition-all duration-300 ease-out
-                      ${hoveredId === album.id ? "transform -translate-y-8 scale-110" : "hover:scale-105"}
+                      ${hoveredId === album.id ? "transform -translate-y-8 scale-110" : ""}
                     `}
                   >
                     <img
@@ -223,7 +261,7 @@ export default function Component() {
                 <div
                   key={i}
                   className={`w-2 h-2 rounded-full transition-colors duration-300 ${
-                    Math.abs(i - scrollOffset) <= 2 ? "bg-purple-500" : "bg-gray-600"
+                    i >= scrollOffset && i < scrollOffset + albumsPerScreen ? "bg-purple-500" : "bg-gray-600"
                   }`}
                 />
               ))}
