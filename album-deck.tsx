@@ -214,7 +214,7 @@ export default function Component() {
             <h2 className="text-4xl font-bold text-white text-left mb-6 ml-2 md:ml-12">Made for you</h2>
             <p className="text-lg text-white text-left mb-8 ml-2 md:ml-12">Discover new music tailored just for you</p>
 
-            <div id="album-container" className="relative overflow-hidden w-full" style={{ height: "400px" }}>
+            <div id="album-container" className="relative overflow-hidden w-full" style={{ height: "450px" }}>
               {albums.map((album, index) => {
                 const position = index - scrollOffset
                 const isVisible = position >= -1 && position <= albumsPerScreen
@@ -244,7 +244,7 @@ export default function Component() {
                         className={`
                           relative w-[300px] h-[300px] rounded-lg overflow-hidden shadow-2xl
                           transition-all duration-300 ease-out
-                          ${hoveredId === album.id ? "transform -translate-y-8 scale-110" : ""}
+                          ${hoveredId === album.id ? "transform -translate-y-12 scale-110" : ""}
                         `}
                       >
                         <img
