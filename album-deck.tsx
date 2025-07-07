@@ -26,7 +26,7 @@ export default function Component() {
       artist: "Pink Floyd",
       cover: "https://i.scdn.co/image/ab67616d000082c11a84d71391df7469c5ab8539",
       genre: "Progressive Rock",
-      embedUrl: "https://open.spotify.com/embed/album/0bYg9bo50gSsH3LeaeA_KR?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/0bCAjiUamIFqKJsekOYuRw?utm_source=generator&theme=0",
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ export default function Component() {
       artist: "Pink Floyd",
       cover: "https://i.scdn.co/image/ab67616d000082c161f734a2370207feda78d018",
       genre: "Progressive Rock",
-      embedUrl: "https://open.spotify.com/embed/album/6n36WhlT2N4aW36s0i3dY9?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/4xODvcpjOOgu4oKWL0sCte?utm_source=generator&theme=0",
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ export default function Component() {
       artist: "Pink Floyd",
       cover: "https://i.scdn.co/image/ab67616d000082c1ea7caaff71dea1051d49b2fe",
       genre: "Progressive Rock",
-      embedUrl: "https://open.spotify.com/embed/album/4LH4d3cOWNNsVw41Gqt2kv?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/4LH4d3cOWNNsVw41Gqt2kv?utm_source=generator&theme=0",
     },
     {
       id: 4,
@@ -66,7 +66,7 @@ export default function Component() {
       artist: "Soda Stereo",
       cover: "https://i.scdn.co/image/ab67616d000082c1e28947f6ad2f100af9c1965a",
       genre: "New Wave",
-      embedUrl: "https://open.spotify.com/embed/album/01llLU2wWa6OBlQ4xVjWcf?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/0hyq754QnaKHYpH32QnWqs?utm_source=generator&theme=0",
     },
     {
       id: 7,
@@ -74,7 +74,7 @@ export default function Component() {
       artist: "Steve Winwood",
       cover: "https://i.scdn.co/image/ab67616d000082c188e5063a032f500fb12d98f4",
       genre: "Blue-eyed Soul",
-      embedUrl: "https://open.spotify.com/embed/album/3421O2bdhSMp6r32uoh223?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/3kpetl4t4Ew1m2NrnsjYhx?utm_source=generator&theme=0",
     },
     {
       id: 8,
@@ -82,7 +82,7 @@ export default function Component() {
       artist: "Steve Winwood",
       cover: "https://i.scdn.co/image/ab67616d000082c18362a7a26eaf279f336f1494",
       genre: "Blue-eyed Soul",
-      embedUrl: "https://open.spotify.com/embed/album/5fIrvS34eYtGEd3d1g2J2g?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/1VV4tdUYIjRlhKxu1gMw4d?utm_source=generator&theme=0",
     },
     {
       id: 9,
@@ -90,23 +90,24 @@ export default function Component() {
       artist: "Duran Duran",
       cover: "https://i.scdn.co/image/ab67616d0000b2730fc83f41d5f0bd27105e5048",
       genre: "New Wave",
-      embedUrl: "https://open.spotify.com/embed/album/0gD_a0yK6d2tH6Vb1b7hG8?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/2Tc7ILGF89w1PW0hzuZlqB?utm_source=generator&theme=0",
     },
     {
       id: 10,
       title: "Rio",
       artist: "Duran Duran",
       cover: "https://i.scdn.co/image/ab67616d000082c10a754dd5389e1e5004fca140",
-      genre: "New Wave",
-      embedUrl: "https://open.spotify.com/embed/album/02tfQwJSOLP77oCd9U8bqm?utm_source=generator",
+      genre: "New Wave",  
+      embedUrl: "https://open.spotify.com/embed/album/2Tc7ILGF89w1PWOhzuZlqB?utm_source=generator&theme=0",
     },
+
     {
       id: 11,
       title: "Lark's Tongues in Aspic",
       artist: "King Crimson",
       cover: "https://i.scdn.co/image/ab67616d000082c1aa9e5286056e17ff3d9b2881",
       genre: "Progressive Rock",
-      embedUrl: "https://open.spotify.com/embed/album/3O2G205iGk2a7aG1feTj3K?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/6ELt0QaMOwPGPzfdEXE839?utm_source=generator&theme=0",
     },
     {
       id: 12,
@@ -114,7 +115,7 @@ export default function Component() {
       artist: "King Crimson",
       cover: "https://i.scdn.co/image/ab67616d0000b2733167627d9428094376a26a08",
       genre: "Progressive Rock",
-      embedUrl: "https://open.spotify.com/embed/album/4mH42B0B42x22Jk2ajsodo?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/4mA3RKIoEoX4JlJSHueQae?utm_source=generator&theme=0",
     },
     {
       id: 13,
@@ -122,7 +123,7 @@ export default function Component() {
       artist: "Yes",
       cover: "https://i.scdn.co/image/ab67616d0000b273370f0969aca636b22cc98eed",
       genre: "Progressive Rock",
-      embedUrl: "https://open.spotify.com/embed/album/1QyT2BwRmmhE2k20gGg4ur?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/2U4JHXMiBxsKH4dnYEQg2g?utm_source=generator&theme=0",
     },
     {
       id: 14,
@@ -130,7 +131,7 @@ export default function Component() {
       artist: "Yes",
       cover: "https://i.scdn.co/image/ab67616d0000b2730b4444fe9bc1a73ccbb949db",
       genre: "Progressive Rock",
-      embedUrl: "https://open.spotify.com/embed/album/52l8VjCZsFBM7n2vXo4i7c?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/1uXol4dKqzMsUiqvHpwhZh?utm_source=generator&theme=0",
     },
     {
       id: 15,
@@ -138,7 +139,7 @@ export default function Component() {
       artist: "King Gizzard and the Lizard Wizard",
       cover: "https://i.scdn.co/image/ab67616d0000b27380c6db47e75d58e25b72f2ca",
       genre: "Progressive Rock",
-      embedUrl: "https://open.spotify.com/embed/album/4tuqA7qbvyPqqYe7YuYI6k?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/4tuqA7qbVsPukqsYPPrcF7?utm_source=generator&theme=0",
     },
     {
       id: 16,
@@ -146,7 +147,7 @@ export default function Component() {
       artist: "Joni Mitchell",
       cover: "https://i.scdn.co/image/ab67616d000082c140a59e27df19f31576774900",
       genre: "Jazz Fusion",
-      embedUrl: "https://open.spotify.com/embed/album/3D5bC5poI1NAiIey22o24A?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/3Z0qQc09rmk4JYtIaxEx2J?utm_source=generator&theme=0",
     },
     {
       id: 17,
@@ -154,15 +155,15 @@ export default function Component() {
       artist: "Joni Mitchell",
       cover: "https://i.scdn.co/image/ab67616d0000b273d43c786431c6708e91d9b180",
       genre: "Folk Rock",
-      embedUrl: "https://open.spotify.com/embed/album/03iFLgmgkR1h2gYJ2s6n2E?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/album/03iFLgmgkLT7X5gnXVPID5?utm_source=generator&theme=0",
     },
     {
       id: 18,
-      title: "Roundabout",
+      title: "Fragile",
       artist: "Yes",
       cover: "https://i.scdn.co/image/ab67616d0000b273fb00f7be0eca020bb5c05911",
       genre: "Progressive Rock",
-      embedUrl: "https://open.spotify.com/embed/track/0YveD4b2U3nB0e2p2P2iT3?utm_source=generator",
+      embedUrl: "https://open.spotify.com/embed/track/78tN6vBPHHyNk4sZYnS5X4?utm_source=generator&theme=0",
     }
   ]
 
